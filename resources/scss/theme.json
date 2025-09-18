@@ -1,0 +1,44 @@
+{
+  "theme": "light",
+  "token": {
+    "fontFamily": "IBM Plex Sans, sans-serif",
+    "colorPrimary": "#0045c2",
+    "colorError": "#e20004",
+    "borderRadius": 8,
+    "wireframe": true,
+    "fontSize": 14,
+    "controlHeight": 32,
+    "colorTextDisabled": "rgba(0, 0, 0, 0.65)"
+  },
+  "components": {
+    "Layout": {
+      "lightSiderBg": "#F5F5F5"
+    },
+    "Card": {
+      "colorBorderSecondary": "rgba(0, 0, 0, 0.15)",
+      "boxShadowCard": "0rem 0.0625rem 0rem 0rem rgba(26,26,26,.07)",
+      "boxShadowTertiary": "0rem 0.0625rem 0rem 0rem rgba(26,26,26,.07)"
+    },
+    "Table": {
+      "headerBg": "transparent",
+      "padding": 6
+    },
+    "Divider": {
+      "colorSplit": "rgb(0 0 0 / 15%)"
+    },
+    "Menu": {
+      "lineWidth": 1,
+      "lineHeight": 1,
+      "margin": 2,
+      "lineWidthFocus": 1,
+      "dropdownWidth": 240,
+      "activeBarBorderWidth": 0,
+      "itemHeight": 34,
+      "itemPaddingInline": 4,
+      "itemMarginInline": 2,
+      "iconMarginInlineEnd": 6,
+      "borderRadius": 0,
+      "itemActiveBg": "transparent"
+    }
+  }
+}

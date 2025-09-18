@@ -1,0 +1,220 @@
+$border-color: rgb(0 0 0 / 15%);
+
+html, body{
+	margin: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    background: #fff;
+}
+a {
+    color: $color-primary;
+}
+.ant-card{
+    box-shadow: 0rem 0.0625rem 0rem 0rem rgba(26,26,26,.07);
+}
+.site-logo{
+    width: 100%;
+    height: auto;
+}
+mark{
+background-color: #ffe58f;
+}
+pre {
+    padding: 0.4em 0.6em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background: rgba(150,150,150,.1);
+    border: 1px solid rgba(100,100,100,.2);
+    border-radius: 3px;
+}
+.ant-dropdown .ant-dropdown-menu{
+    min-width: 180px;
+}
+ul, ol{
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+aside .ant-menu.ant-menu-root {
+    margin-bottom: 50px;
+}
+#debug-btn{
+    z-index: 10000000 !important;
+}
+#app-layout, #app-layout > div, .ant-layout{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+.main-container{
+    padding-bottom: 30px;
+}
+.ant-form-item-label {
+    font-weight: 500;
+}
+
+svg{
+    vertical-align: middle;
+}
+.ant-tag{
+    svg{
+        height: 14px;
+    } 
+}
+.ant-dropdown-menu-item{
+    svg{
+        height: 18px;
+    }
+}
+  .ant-btn svg,
+  .ant-menu-item-icon
+{
+    height: 18px;
+    width: auto;
+    display: inline-flex;
+    align-items: center;
+    color: inherit;
+    font-style: normal;
+    line-height: auto;
+    text-align: center;
+    text-transform: none;
+    vertical-align: middle;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    stroke-width: 1.75;
+  }
+.ant-btn-sm svg{
+    height: 18px;
+}
+.ant-card-filters{
+    padding: 2rem;
+}
+.ant-typography {
+    margin-top: 0;
+}
+.ant-statistic-content-value {
+    font-weight: 500;
+    font-size: 18px;
+}
+.ant-menu-item-divider{
+    border-color: $border-color;
+}
+.chart-block{
+    width: 100%;
+    height: 400px;
+}
+
+.site-logo > img {
+    height: 50px;
+    width: auto;
+    margin: 0;
+    margin: 0 !important;
+}
+.ant-menu-light {
+    background-color: transparent; 
+}
+.ant-menu-overflow {
+    width: 100%;
+}
+.ant-select {
+    width: 100%;
+    min-width: 150px;
+}
+.transparent{
+    background-color: transparent !important;
+}
+.footer-actions{
+    justify-content: space-between;
+    width: 100%;
+}
+/* Pages */
+.page-pattern{
+    position: absolute;
+    width: 100%;
+    right: 0;
+    height: 35%;
+    z-index: 0;
+    bottom: 0;
+    top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-color: #F6F2EF;
+    }  
+.text-center{
+    text-align: center;
+}
+.ant-picker,
+.ant-input-number,
+.ant-select-single,
+.ant-input-number-group-wrapper {
+    width: 100%;
+}
+
+.ant-form-item-explain-error{
+    font-size: 12px !important;
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    /* CSS */
+}
+
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* CSS */
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS */
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* CSS */
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* CSS */
+    .nav-item{
+        display: none;
+    }
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .panel {
+        width: 80%;
+    }
+}
